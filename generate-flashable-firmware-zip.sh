@@ -15,7 +15,7 @@ cd "$TEMPDIR"
 unzip "$SOURCE"
 rm boot.img system.*
 cd META-INF
-rm CERT.*  MANIFEST.MF
+rm -f CERT.*  MANIFEST.MF
 cd com
 rm -fR android
 cd google/android
